@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 3rem;
+    color: hsl(250, 69%, 61%);
+    margin-right: 1rem;
+}
+
+.purple{
+    color: hsl(250, 69%, 61%);
+}
