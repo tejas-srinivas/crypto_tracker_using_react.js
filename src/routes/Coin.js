@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import './Coin.css'
 import DOMPurify from 'dompurify';
+import HistoryChart from './HistoryChart';
 
 const Coin = () => {
 
@@ -87,8 +88,10 @@ const Coin = () => {
                         {coin.market_data ? <p>{coin.market_data.circulating_supply}</p> : null}
                     </div>
                 </div>
-
             </div>
+            <br/>
+            <h2>History Chart:</h2>
+            <HistoryChart />
         </div>
         <div className='content'>
             <div className='about'>

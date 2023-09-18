@@ -1,14 +1,16 @@
 import React from 'react';
-import {FaCoins} from 'react-icons/fa'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import logo from '../src/grc.png'
 
 const Navbar = () => {
   return (
     <Link to='/'>
       <div className='navbar'>
-        <FaCoins className='icon'/>
-        <h1>Crypto <span className='purple'>Tracker</span></h1>
+        <div className='nav__container'>
+          <img src={logo} className='icon' alt=''/>
+          <h1>Crypto <span className='purple'>Tracker</span></h1>
+        </div>
       </div>
     </Link>
   );
