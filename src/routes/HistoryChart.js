@@ -41,7 +41,16 @@ const HistoryChart = () => {
   if(chartData.prices){
     const coinChartData = chartData.prices.map(value => ({ x: value[0],y: value[1].toFixed(2)}));
 
-    const options = {responsive:true}
+    const options = {
+        responsive:true,
+        elements: {
+            point:{
+                radius:1,
+                borderWidth: 0.5,
+                hoverRadius:4
+            }
+        }
+    }
 
     const data = {
         labels: coinChartData.map(value => moment(value.x).format('MMM-DD')),
@@ -50,8 +59,8 @@ const HistoryChart = () => {
                 fill: true,
                 label: coinId,
                 data: coinChartData.map(value => value.y),
-                borderColor: 'hsl(250,69%,61%)',
-                backgroundColor: 'hsl(248, 37%, 15%)'
+                borderColor: 'hsl(250, 69%, 61%)',
+                backgroundColor: 'hsl(252, 33%, 12%)'
             }
         ]
       }
