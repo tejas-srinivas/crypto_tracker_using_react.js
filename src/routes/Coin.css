@@ -100,4 +100,8 @@ th {
     .rank-btn {
         margin: .5rem 0;
     }
+
+    .coin-price h1{
+        font-size:large;
+    }
 }
