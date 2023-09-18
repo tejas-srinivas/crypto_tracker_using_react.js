@@ -18,6 +18,11 @@ ul{
     gap: 4rem;
 }
 
+li:hover{
+    transform: scale(1.15);
+    transition: .4s ease-in-out;
+}
+
 .logo a{
     display: flex;
     align-items: center;
