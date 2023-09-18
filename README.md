@@ -1,8 +1,15 @@
-# crypto_tracker_using_react.js
+# Live Crypto Statistics With Graphs
 
-## Getting Started with Create React App
+## Dependencies Required
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. npm install axios => fetching the CoinGecko API
+2. npm install chart.js => displaying Area Chart
+3. npm install react-chartjs-2
+4. npm install dompurify => eliminating dangerousInnerHTML
+5. npm install moment => formating to 'MMM-DD'
+6. npm install react-router-dom => Routing from 1 component to another
+
+## API = CoinGecko Public API
 
 ## Available Scripts
 
