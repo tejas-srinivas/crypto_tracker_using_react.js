@@ -9,7 +9,7 @@ Designed and Developed using React.js and Chart.js.
 ![Crypto Tracker](https://portfolio-using-react-js.onrender.com/static/media/project5.d7cffe82dd28b177e917.png)
 
 
-## Dependencies Required
+## `Dependencies Required`
 
 1. npm install axios => fetching the CoinGecko API
 2. npm install chart.js => displaying Area Chart
@@ -18,7 +18,7 @@ Designed and Developed using React.js and Chart.js.
 5. npm install moment => formating to 'MMM-DD'
 6. npm install react-router-dom => Routing from 1 component to another
 
-## API = CoinGecko Public API
+## `API = CoinGecko Public API`
 https://www.coingecko.com/en/api/documentation
 
 ## Available Scripts
