@@ -1,9 +1,13 @@
 # Live Crypto Statistics With Graphs
 This Web App displays all the real-time statictics of Crypto-Coin. 
-Designed and Developed using React.js and Chart.js.
+Designed and Developed using React.js and Chart.js. 
+
+### [Click Here to View Live APP](https://live-crypto-statistics.onrender.com/)
+
 
 ### Glimpse of the Project
 ![Crypto Tracker](https://portfolio-using-react-js.onrender.com/static/media/project5.d7cffe82dd28b177e917.png)
+
 
 ## Dependencies Required
 
